@@ -194,6 +194,7 @@
               "type": "special"
             }
           ],
+          "min": 0,
           "thresholds": {
             "mode": "absolute",
             "steps": [
@@ -225,7 +226,7 @@
         "orientation": "horizontal",
         "reduceOptions": {
           "calcs": [
-            "mean"
+            "lastNotNull"
           ],
           "fields": "",
           "values": false
