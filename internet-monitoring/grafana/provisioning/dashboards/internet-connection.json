@@ -120,6 +120,7 @@
               "type": "special"
             }
           ],
+          "min": 0,
           "thresholds": {
             "mode": "absolute",
             "steps": [
