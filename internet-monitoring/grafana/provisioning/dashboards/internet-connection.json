@@ -109,6 +109,7 @@
           "color": {
             "mode": "thresholds"
           },
+          "decimals": 0,
           "mappings": [
             {
               "options": {
@@ -152,7 +153,7 @@
         "orientation": "horizontal",
         "reduceOptions": {
           "calcs": [
-            "mean"
+            "lastNotNull"
           ],
           "fields": "",
           "values": false
@@ -531,7 +532,7 @@
       }
     }
   ],
-  "refresh": "",
+  "refresh": "5m",
   "schemaVersion": 30,
   "style": "dark",
   "tags": [
